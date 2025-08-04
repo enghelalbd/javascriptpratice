@@ -7,21 +7,26 @@ Ticket fare Calculator
     - Otherwise Regular ticket fare 800 tk
 */
 const fare=800;
-const age=20;
+const age=200;
 const study=true;
 
  if(age<10){
-    console.log('Free')
+    console.log('Free');
  }
-else if(study==true)
-    fare=fare/2;
-console.log(fare)
-else if(age>=60)
-    fare=fare*15/100
+else if(study===true)
 {
-console.log(fare)
+  fare=fare/2;
+console.log(fare);
 }
+  
+else if(age>=60){
+
+     fare=fare*15/100
+console.log(fare);
+
+}  
+
 else
 {
-    console.log('Regular ticket fare 800')
+    console.log(fare);
 }
