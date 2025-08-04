@@ -3,14 +3,13 @@ var fileName= "pdfData.jpg";
 
 //write your code here
 
-
-if(fileName.startsWith("#") || fileName.endsWith(".pdf") ||fileName.endsWith(".docx")){
-    console.log('store')
+// values are result.pdf,data.docx,pdfData.jpg,#exp.mp4,docx.txt,docx.xpdf,slipdf.txt
+if (fileName.startsWith("#") || fileName.endsWith(".pdf") || fileName.endsWith(".docx")) {
+    console.log('Store')
 }
 
-else
-{
-    console.log("delete")
+else {
+    console.log("Delete")
 }
 
 
@@ -24,4 +23,3 @@ else
 
 
 
-    
