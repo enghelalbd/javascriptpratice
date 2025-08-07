@@ -12,6 +12,3 @@ console.log(reverse);
      console.log[i];
      console.log(sentence[i])
  }
-
-
- 
