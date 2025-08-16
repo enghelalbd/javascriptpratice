@@ -1,25 +1,36 @@
-const age=41;
-const school='Khepupara Secoday'
-const university='Bangladesh University'
-const isdeveloper=true;
-let ispassed;
-console.log(ispassed);
 
-const bottle={
-    brand: 'rfl', 
-    price:80,
-    color:'red'
+
+// 22_5-1 (optional) Explore what you can do with JavaScript Object
+const student={
+
+name:'Hasan',
+ID:20124503,
+Adress: '58, KADA Avenue',
+friends: ['Hafiza','Rakiba','Nayona'],
+isSingle:true,
+ act:function(){
+    console.log(' Very good singer')
+},
+ 
+result:[{bangla:15,english:15,math:87  }, {bangla:55,english:85,math:87   } ,   {  bangla:75,english:65,math:87                }],
+ cycle :{
+    company:' TATA',
+    price:1200,
+    model:'TA2025',
+    Manufacturer:
+    {
+    name:  'TaTa  assemblye',
+    ceo:' Rotan Tata',
+    Headers:' New Delli'
+
+         }
+ }
 
 }
-console.log(bottle)
 
- const man={
 
-    sex:'male',
-    age:'17',
-    name:'Aman',
-    waight:50
-   
+console.log(student.act)
+student.act()
 
- }
- console.log(man)
+// console.log(student)
+// console.log(student.cycle)
